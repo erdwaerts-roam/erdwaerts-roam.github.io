@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>roam - Bedienungsanleitung</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1E1E1E;
+            --primary: #C2B280;
+            --text: #E0E0E0;
+            --text-dim: #A0A0A0;
+            --accent: #8B4513;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .logo {
+            max-width: 120px;
+            margin-bottom: 20px;
+            filter: drop-shadow(0 0 10px rgba(194, 178, 128, 0.3));
+        }
+
+        h1 {
+            color: var(--primary);
+            font-weight: 800;
+            font-size: 2.5rem;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            color: var(--text-dim);
+            font-weight: 300;
+        }
+
+        .section {
+            background-color: var(--card-bg);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border-left: 4px solid var(--primary);
+        }
+
+        h2 {
+            color: var(--primary);
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+
+        .badge {
+            background-color: var(--accent);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-bottom: 40px;
+            color: var(--text-dim);
+            font-size: 0.9rem;
+        }
+
+        .highlight {
+            color: var(--primary);
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <!-- Ersetze 'logo.png' mit dem Pfad zu deinem Erdwärts-Logo -->
+            <img src="https://erdwaerts-roam.github.io/roam-links/logo_roam.png" alt="roam Logo" class="logo">
+            <h1>roam</h1>
+            <p class="subtitle">Deine Welt. Deine Ziele. Deine Bucket List.</p>
+        </header>
+
+        <div class="section">
+            <h2>📍 Spots planen & finden</h2>
+            <p>Mit <b>roam</b> behältst du den Überblick über all deine Wunschziele.</p>
+            <ul>
+                <li>Nutze die <b>Suche</b> im Karten-Tab, um Orte weltweit zu finden.</li>
+                <li>Halte die Karte <b>lange gedrückt</b>, um manuell einen Punkt zu setzen.</li>
+                <li>Teile Orte direkt aus <b>Google Maps</b> an die App, um sie sofort zu speichern.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🤝 Gemeinsam erleben</h2>
+            <p>Teile deine Abenteuer mit Freunden oder Partnern.</p>
+            <ul>
+                <li>Erstelle eine Liste und klicke auf das <span class="highlight">Teilen-Symbol</span>.</li>
+                <li>Sende den generierten Link an dein Gegenüber.</li>
+                <li>Sobald dein Partner beitritt, könnt ihr <b>beide</b> neue Spots hinzufügen und abhaken.</li>
+                <li>Ihr erhaltet automatische <b>Push-Benachrichtigungen</b>, wenn der andere etwas ändert.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>📂 Struktur & Hierarchie</h2>
+            <p>Behalte die Ordnung – auch bei vielen Zielen.</p>
+            <ul>
+                <li>Erstelle <b>Unterlisten</b> (z.B. Hauptliste "Reisen" -> Unterliste "Italien"), um deine Touren zu gruppieren.</li>
+                <li>Nutze den <span class="highlight">Sortier-Modus</span> (Icon oben rechts), um die Reihenfolge deiner Listen individuell anzupassen.</li>
+                <li>Die Sortierung ist <b>persönlich</b>: Dein Partner kann eine andere Reihenfolge wählen als du!</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>📊 Dein Dashboard</h2>
+            <p>Feiere deine Fortschritte im Statistik-Bereich.</p>
+            <ul>
+                <li>Der <b>Fortschritts-Ring</b> zeigt dir, wie viel du schon geschafft hast.</li>
+                <li>Die <b>Aktivitäts-Timeline</b> visualisiert deine Erfolge der letzten 12 Monate.</li>
+                <li>Sammle <b>Flaggen</b> für jedes Land, in dem du einen Spot besucht hast.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🔐 Sicherheit</h2>
+            <ul>
+                <li>Deine Daten werden sicher in der Google Cloud verschlüsselt gespeichert.</li>
+                <li>Nutze die <b>Wiederherstellung</b> in den Einstellungen, um versehentlich gelöschte Listen 30 Tage lang zurückzuholen.</li>
+            </ul>
+        </div>
+
+        <footer>
+            &copy; 2026 roam - entwickelt von erdwaerts<br>
+            <small>Version 0.79-beta</small>
+        </footer>
+    </div>
+
+</body>
+</html>
